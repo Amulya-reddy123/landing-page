@@ -1,0 +1,207 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-inline{
+    background-color: black;
+}
+.btn1{
+    color:rgb(16, 15, 15);
+    shape-outside: margin-box;
+    font-size:15px;
+}
+.btn1:hover{
+    background-color:rgb(226, 80, 43);
+}
+.home-img::before
+{
+    background-image: url("images/home.jpeg");
+    background-size: cover;
+    opacity: 0.5;
+    content:'';
+    position:absolute;
+    inset:0;
+    opacity:0.7;
+}
+.home-img{
+    position:relative;
+    width: 100vw;
+    height: 70%;
+    background-blend-mode: darken black;
+   
+}
+.home-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 70px;
+    color:black;
+    padding: 250px;
+    padding-bottom: 3s00px;
+    isolation:isolate;
+
+}
+
+.about-section{
+    font-family: 'Times New Roman', Times, serif;
+   
+    font-style:oblique;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+    color:rgb(16, 15, 18);
+    margin:80px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 0px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: beige;
+}
+.about-img
+{
+width: 100%;
+height: 323px;
+}
+.about-content{
+    padding:10px;
+}
+.about-heading{
+   
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.products-heading
+{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+font-weight: bold;
+}
+.container{
+    width: 100%;
+    height:100%;
+    padding-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.contact-heading{
+    font-weight: bold;
+    padding-top:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contactfrm{
+    background-color: aqua;
+    padding-top:20px;
+    background-image: url("images/contactus.jpeg");
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 60%;
+}
+.container .card{
+    width: 330px;
+    height:700px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(11, 11, 11);
+    text-align: center;
+    padding-top:15px;
+
+
+}
+.container .card .product-image{
+    width: 230px;
+    height:300px;
+    margin:20px auto;    
+}
+.container .card .product-image img{
+    width: 100%; 
+    height:90%;
+    transition:0.4s;
+}
+.container .card .product-image img:hover{
+    transform: scale(1,1);
+
+}
+
+.container .card .product.info h4{
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+
+}
+.container .card .btn{
+    width: 100%;
+
+
+}
+.container .card .btn .button{
+    width: 100%;
+    background: black;
+    border: 1px solid black;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+    padding-top: 100px;
+    
+
+}
+.btn2:hover{
+    background-color: green;
+}
+.contact-form{
+    padding-top: 30px;
+    position:relative;
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30%;
+}
+.product-content{
+    display: flex;
+  justify-content: center;
+  align-items:normal;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: justify;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.footer-down{
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-card{
+    padding: 10px;
+}
+.footer-icons{
+    font-size: 32px;
+    color: rgb(61, 255, 103);
+    padding: 10px;
+}
+.footer-navigation-heading{
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    padding-top: 20px;
+}
+.footer-navigation{
+    color: #a0a0a0;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    border-color: white;
+}
+.footer-navigation:hover{
+    color: black;
+    
+    text-decoration: none;
+    transition: .5s;
+    border-color: rgb(61, 255, 90);
+}
